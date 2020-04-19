@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: #003F6E;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 2rem;
+}
+
+h1 {
+    padding-top: 3rem;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+h3 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+.oppgavesett {
+    width: 180px;
+    padding: 1rem;
+}

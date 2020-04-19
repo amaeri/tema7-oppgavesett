@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width' , initial-scale='1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>Oppgavesett 2 - Oppgave 10</title>
+    <link rel='stylesheet' href='index.css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Oppgave 10</h1>
+            <div id="oppgaver">
+                <p>Supernøtt: Utvid oppgaven fra side 6. Men hvis firkanten kommer utenfor skjermen, skal du gi en
+                    melding.
+                    For eksempel kan det skje at du har skrevet inn at x-posisjonen til firkanten skal være 4000. Men
+                    bredden på
+                    nettleseren din er kanskje 1920 bred. Altså vil du ikke se firkanten. Du kan godt gi melding i
+                    konsollen.
+                    Tips: Bredden på nettleseren har et navn i JavaScript: innerWidth</p>
+            </div>
+
+            <div id="oppgavesvar">
+                <input type="number" id="inpX" autocomplete="off" placeholder="Legg inn et tall">
+                <input type="number" id="inpY" autocomplete="off" placeholder="Legg inn et tall">
+
+                <p>Velg bredde</p>
+                <input type="range" id="inpWidth">
+
+                <p>Velg høyde</p>
+                <input type="range" id="inpHeight">
+
+                <p>Velg avrunding</p>
+                <input type="range" id="inpBorderR">
+
+                <div id="firkant"></div>
+
+                <script src="./index.js"></script>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

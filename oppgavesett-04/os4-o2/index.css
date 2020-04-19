@@ -1,0 +1,42 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+}
+
+section {
+    width: 70%;
+    background-color: #003F6E;
+    color: white;
+    padding: 1rem;
+}
+
+#oppgaver {
+    padding-bottom: 1rem;
+    border-bottom: 1px white solid;
+}
+
+#oppgavesvar {
+    padding-top: 2rem;
+}
+
+
+#venneliste {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+}
+
+#venneliste div {
+    padding: 1rem;
+    border: 1px solid white;
+}

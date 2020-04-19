@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oppgavesett 7 - Oppgave 1</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel='stylesheet' href='./index.css'>
+</head>
+
+<body>
+
+    <div id="kartet"></div>
+
+    <div id="knapper">
+        <button data-mode="mapbox://styles/mapbox/dark-v10">Nattmodus</button>
+        <button data-mode="mapbox://styles/mapbox/streets-v11">Dagmodus</button>
+        <button data-mode="mapbox://styles/mapbox/satellite-v9">Satelitt</button>
+    </div>
+    <div id="museumKnapper">
+        <div id="viking" data-lng="10.684409" data-lat="59.904948"></div>
+        <div id="hermetikk" data-lng="5.725190" data-lat="58.972546"></div>
+        <div id="bergen" data-lng="5.309325" data-lat="60.418150"></div>
+        <div id="lofoten" data-lng="14.564727" data-lat="68.231263"></div>
+        <div id="svalbard" data-lng="15.653029" data-lat="78.222330"></div>
+    </div>
+
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

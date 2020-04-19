@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+}
+
+section {
+    width: 70%;
+    background-color: #003F6E;
+    color: white;
+    padding: 1rem;
+}
+
+#oppgaver {
+    border-bottom: 1px white solid;
+}
+
+#oppgavesvar {
+    padding-top: 1rem;
+}
+
+input {
+    width: 150px;
+}

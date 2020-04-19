@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width' , initial-scale='1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>Oppgavesett 2 - Oppgave 6</title>
+    <link rel='stylesheet' href='index.css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Oppgave 6</h1>
+            <div id="oppgaver">
+
+                <p>a) Lag en nettside med et div-element som er en grønn firkant på 20x20px. Plasser firkanten absolutt
+                    og
+                    gi
+                    den en id. Legg til to input-felter på nettsiden, inpX og inpY. Når noen skriver tall i
+                    input-feltene,
+                    skal firkanten flytte seg til den posisjonen som er angitt for i inpX og inpY. I CSS-koden, kan du
+                    gjerne sette på transition på firkanten.</p>
+                <p>b) Legg til to input-felter av typen range. Dette blir to slidere. Bruk disse til å styre bredden og
+                    høyden
+                    på firkanten. </p>
+                <p>c) Legg inn enda en slider. Denne skal styre avrundingen av firkanten (border-radius)</p>
+            </div>
+
+            <div id="oppgavesvar">
+                <input type="number" id="inpX" autocomplete="off" placeholder="Legg inn et tall">
+                <input type="number" id="inpY" autocomplete="off" placeholder="Legg inn et tall">
+
+
+                <p>Velg bredde</p>
+                <input type="range" id="inpWidth">
+
+                <p>Velg høyde</p>
+                <input type="range" id="inpHeight">
+
+
+                <p>Velg avrunding</p>
+                <input type="range" id="inpBorderR">
+
+                <div id="firkant"></div>
+
+
+                <script src="./index.js"></script>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

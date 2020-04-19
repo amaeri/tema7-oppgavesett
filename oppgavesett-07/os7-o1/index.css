@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+#kartet {
+    width: 100vw;
+    height: 100vh;
+}
+
+#knapper {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+#museumKnapper {
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	gap: 1rem;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#viking {
+    background-image: url("./img/viking.png");
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+}
+
+#hermetikk {
+    background-image: url("./img/hermetikk.png");
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+}
+
+#bergen {
+    background-image: url("./img/bergen.png");
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+}
+
+#lofoten {
+    background-image: url("./img/lofoten.png");
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+}
+
+#svalbard {
+    background-image: url("./img/svalbard.png");
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+}
+
+.museummarker {
+    width: 40px;
+    height: 40px;
+    background-image: url("./img/museum.png");
+    background-size: contain;
+}

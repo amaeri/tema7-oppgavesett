@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width' , initial-scale='1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>Oppgavesett 2 - Oppgave 9</title>
+    <link rel='stylesheet' href='index.css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Oppgave 9</h1>
+            <div id="oppgaver">
+                <p>Bruk 2 input-felter og en knapp. I det ene input-feltet skal det skrives inn en overskrift. I det
+                    andre
+                    en URL
+                    til et bilde. Når dette er skrevet inn og knappen klikkes på, skal det dukke opp en nyhetsartikkel
+                    på
+                    nettsiden.
+                    Hvis du gjentar prosessen skal det dukke opp flere nyhets-artikler.</p>
+            </div>
+
+            <div id="oppgavesvar">
+                <input type="text" id="overskrift" autocomplete="off" placeholder="Velg overskrift">
+                <input type="url" id="bilde" placeholder="Sett inn URL">
+                <button id="btn">Bekreft</button>
+
+                <article id="nyheter"></article>
+
+                <script src="./index.js"></script>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
