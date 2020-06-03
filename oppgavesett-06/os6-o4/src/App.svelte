@@ -1,18 +1,17 @@
 <script>
-	
 	let albums = []
-	
-	let url = "/karpe.json"
+
+	let url = './karpe.json'
 
 	const getAlbums = async () => {
 		const response = await fetch(url)
 		const json = await response.json()
 		albums = json.results
-		console.log(albums)
+		return(url)
 	}
-	
-	getAlbums()
 
+	getAlbums()
+	
 </script>
 
 <main>
